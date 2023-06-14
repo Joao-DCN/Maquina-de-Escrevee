@@ -1,0 +1,39 @@
+body{
+  background: #19202A ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+p{
+
+  
+  font-size: 3pc;
+  text-align: center ;
+  color: #00D7CF ;
+  font-family: monospace ;
+  border-right: 4px solid ;
+  width: 10ch ;
+  white-space: nowrap ;
+  overflow: hidden ;
+  animation: typing 2s steps(10),
+    blinking 0.5s infinite step-end  alternate;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+    }
+}
+
+@keyframes blinking {
+  50% {
+    border-color: transparent;
+  }
+}
+div{
+border: 8px solid #00D7CF;
+border-radius: 12px ;
+width: 300px;
+box-shadow: inset 0 0 13px #00D7CF , 7px 5px 5px #00D7CF ;
+
+}
